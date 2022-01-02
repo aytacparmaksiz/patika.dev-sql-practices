@@ -7,3 +7,6 @@ for l in a:
     print(l)
 flatten = [e for l in a for e in l]
 print(flatten)
+
+#Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün.
+
