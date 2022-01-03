@@ -10,3 +10,11 @@ print(flatten)
 
 #Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün.
 
+a = [[1, 2], [3, 4], [5, 6, 7]]
+b = list(reversed(a))
+
+l = []
+for e in b:
+    e.reverse()
+    l.append(e)
+print(l)    
